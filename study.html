@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习</title>
+    <style>
+        * {
+            font-family: 楷体
+        }
+
+        h3 {
+            color: rgb(255, 0, 0); 
+            font-family:微软雅黑
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>常见快捷键</h3>
+    <p>
+    <ol type="1">
+        <li>生成浏览器文件：i+回车</li>
+        <li>代码格式标准化：Shift+Alt+F</li>
+        <li>快速复制一行代码：Shift+Alt+向上/向下</li>
+        <li>向上或向下移动一行代码：Alt+向上/向下</li>
+        <li>快速保存：Ctrl+S</li>
+        <li>快速查找：Ctrl+F</li>
+    </ol>
+    </p>
+
+    <h3>基础标签</h3>
+    <p>
+    <ol type="1">
+        <li>段落：p</li>
+        <li>换行：br</li>
+        <li>水平线：hr</li>
+    </ol>
+    <br>
+    PS:<ol type="I">
+        <li>一般都会把文字放在“p”的段落中，而不是直接在“body”中输入</li>
+        <li>水平线hr的一些属性：
+            <ol type="i">
+                <li>颜色：color</li>
+                <li>长度：width（单位：像素：px）</li>
+                <li>高度：size（单位同上）</li>
+                <li>对齐方式：align（默认居中，可取left或right）</li>
+            </ol>
+        </li>
+    </ol>
+    </p>
+
+    <h3>图片标签</h3>
+    <p>基础格式：img src="" alt="" width="" height="" title=""<br>其中：
+    <ol>
+        <li>src后面跟图片地址，包括<ol type="A">
+                <li>绝对路径</li>
+                <li>相对路径:<ol type="a">
+                        <li>子级：/</li>
+                        <li>父级：../</li>
+                        <li>同级：./（可以省略）</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>alt后面跟图像的替代文本</li>
+        <li>width规定宽度</li>
+        <li>height规定高度（一般不使用）</li>
+        <li>title后跟鼠标放上去的提示</li>
+    </ol>
+    </p>
+
+    <h3>超链接标签</h3>
+    <p>基础格式：a href="跳转的地址"</p>
+
+    <h3>常用文本标签</h3>
+    <p>
+    <ol>
+        <li>定义着重文字：em</li>
+        <li>定义粗体文字：b</li>
+        <li>定义斜体字：i</li>
+        <li>定义删除字：del</li>
+        <li>定义加重语气：strong（目前无效果，后续学习CSS时有用）</li>
+    </ol>
+    </p>
+
+    <h3>有序列表</h3>
+    <p>有序列表始于ol，每一个列表项始于li标签<br>可以编辑列表的属性：ol type=""，引号中可填“1（默认，可省略）”、“A”、“a”、“I”、“i”</p>
+
+    <h3>无序列表</h3>
+    <p>无序列表始于ul,相关属性与有序列表相似</p>
+
+    <h3>表格</h3>
+    <p>相关标签：
+    <ol>
+        <li>基础框架：table</li>
+        <li>行：tr</li>
+        <li>单元格：td</li>
+        <li>合并单元格：<ol type="a">
+                <li>水平合并：colspan</li>
+                <li>竖直合并：rowspan</li>
+            </ol>
+        </li>
+    </ol><br>常见属性：<ol>
+        <li>边框：border</li>
+        <li>宽度：width</li>
+        <li>高度：height</li>
+    </ol><br>快捷键：table>tr*数字>td*数字{文本}</p>
+
+</body>
+
+</html>
